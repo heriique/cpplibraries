@@ -1,0 +1,42 @@
+﻿  main.cpp
+  You've chosen to want OpenMP usage but have not made it a compilation option. Compile with /openmp
+main.cpp(286): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+main.cpp(349): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+main.cpp(401): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\xutility(2350): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\xutility(2350): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  C:\Program Files (x86)\flann\include\flann/algorithms/kdtree_single_index.h(253): note: see reference to function template instantiation '_OutIt std::copy<_Ty,T*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=float *,
+              _Ty=float *,
+              T=float,
+              _InIt=float *
+          ]
+  C:\Program Files (x86)\flann\include\flann/algorithms/kdtree_single_index.h(240): note: while compiling class template member function 'void flann::KDTreeSingleIndex<flann::DummyDistance>::buildIndexImpl(void)'
+  C:\Program Files (x86)\flann\include\flann/algorithms/all_indices.h(89): note: see reference to class template instantiation 'flann::KDTreeSingleIndex<flann::DummyDistance>' being compiled
+  C:\Program Files (x86)\flann\include\flann/algorithms/all_indices.h(119): note: see reference to class template instantiation 'flann::needs_kdtree_distance<flann::KDTreeSingleIndex<flann::DummyDistance>>' being compiled
+  C:\Program Files (x86)\flann\include\flann/algorithms/all_indices.h(157): note: see reference to class template instantiation 'flann::valid_combination<flann::KDTreeSingleIndex,Distance,ElementType>' being compiled
+          with
+          [
+              Distance=flann::L2<double>
+          ]
+  C:\Program Files (x86)\flann\include\flann\flann.hpp(113): note: see reference to function template instantiation 'flann::NNIndex<Distance> *flann::create_index_by_type<Distance>(const flann::flann_algorithm_t,const flann::Matrix<double> &,const flann::IndexParams &,const Distance &)' being compiled
+          with
+          [
+              Distance=flann::L2<double>
+          ]
+  C:\Program Files (x86)\flann\include\flann\flann.hpp(101): note: while compiling class template member function 'flann::Index<flann::L2<double>>::Index(const flann::Matrix<double> &,const flann::IndexParams &,Distance)'
+          with
+          [
+              Distance=flann::L2<double>
+          ]
+  main.cpp(338): note: see reference to function template instantiation 'flann::Index<flann::L2<double>>::Index(const flann::Matrix<double> &,const flann::IndexParams &,Distance)' being compiled
+          with
+          [
+              Distance=flann::L2<double>
+          ]
+  main.cpp(338): note: see reference to class template instantiation 'flann::Index<flann::L2<double>>' being compiled
+  concave.vcxproj -> C:\Users\ericd\Dropbox\Visual Studio 2017\libraries\concavehull\src-code\Debug\concave.exe
+  concave.vcxproj -> C:\Users\ericd\Dropbox\Visual Studio 2017\libraries\concavehull\src-code\Debug\concave.pdb (Partial PDB)
