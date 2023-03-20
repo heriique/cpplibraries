@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1003</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="labNumber">
+      <property name="text">
+       <string>Number of points</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="leNumber">
+      <property name="text">
+       <string>10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="labNumber_2">
+      <property name="text">
+       <string>N:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="leN">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="btnGenerate">
+      <property name="text">
+       <string>Generate points</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="btnClear">
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QPushButton" name="btnFind">
+      <property name="text">
+       <string>Find concave hull</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QCheckBox" name="cbShowPositions">
+      <property name="text">
+       <string>Show positions</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="8">
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

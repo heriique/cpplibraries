@@ -1,0 +1,12 @@
+﻿  Moc'ing mainwindow.h...
+  Uic'ing mainwindow.ui...
+  moc_mainwindow.cpp
+  hullfinder.cpp
+  main.cpp
+  mainwindow.cpp
+mainwindow.cpp(40): warning C4100: 'checked': unreferenced formal parameter
+mainwindow.cpp(72): warning C4100: 'checked': unreferenced formal parameter
+mainwindow.cpp(93): warning C4100: 'checked': unreferenced formal parameter
+mainwindow.cpp(111): warning C4100: 'event': unreferenced formal parameter
+  Generating Code...
+  ConcaveHull.vcxproj -> C:\Users\Eric\Dropbox\Visual Studio 2017\libraries\vostreltsov-concave-hull-4f420dd7a685\vostreltsov-concave-hull-4f420dd7a685\src\release\ConcaveHull.exe
